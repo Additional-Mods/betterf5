@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "betterf5",
+  "version": "${version}",
+  "name": "BetterF5",
+  "description": "A simple mod that makes third person perspective even better for vehicles.",
+  "authors": [
+    "Dqu1J"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "one.dqu.additionalmods.betterf5.BetterF5"
+    ]
+  },
+  "mixins": [
+    "BetterF5.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "minecraft": ">=1.17"
+  }
+}
